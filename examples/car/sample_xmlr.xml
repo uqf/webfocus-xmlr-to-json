@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fxf version="2.0" data="report">
+   <report records="18" lines="18" columns="5" rows="18">
+      <created by="Information Builders, Inc." focexec="carexample" />
+      <target format="" version="" type="" destination="" />
+      <settings>
+         <setting name="cdn" value="off" />
+         <setting name="grid" value="off" />
+         <page units="inches" orientation="portrait" size="letter" leftmargin="0.250" rightmargin="0.250" topmargin="0.250" bottommargin="0.250" />
+      </settings>
+      <color_desc>
+         <color colornum="0" textcolor="FFFFFF" backcolor="666666" />
+         <color colornum="1" textcolor="424649" backcolor="FEFFFF" />
+         <color colornum="2" textcolor="424649" backcolor="C8C8C8" />
+         <color colornum="3" textcolor="FFFFFF" backcolor="424649" />
+      </color_desc>
+      <style_desc>
+         <style fontnum="0" size="9" style="1" colornum="0" face="TREBUCHET MS" />
+         <style fontnum="1" size="9" style="0" colornum="1" face="TREBUCHET MS" />
+         <style fontnum="2" size="9" style="1" colornum="2" face="TREBUCHET MS" />
+         <style fontnum="3" size="9" style="1" colornum="3" face="TREBUCHET MS" />
+      </style_desc>
+      <field_desc>
+         <field fieldnum="0" focus_format="A10" fieldname="COUNTRY" alias="COUNTRY" />
+         <field fieldnum="1" focus_format="A24" fieldname="MODEL" alias="MODEL" />
+         <field fieldnum="2" focus_format="I3" fieldname="SEATS" alias="SEAT" />
+         <field fieldnum="3" focus_format="D6" fieldname="MPG" alias="MILES" />
+         <field fieldnum="4" focus_format="D7" fieldname="DEALER_COST" alias="DCOST" />
+      </field_desc>
+      <column_desc>
+         <col colnum="ch0" fieldnum="0" class="title" leftmargin="0" width="9" titlealign="none" />
+         <col colnum="ch1" fieldnum="1" class="title" leftmargin="27" width="23" titlealign="none" />
+         <col colnum="ch2" fieldnum="2" class="title" leftmargin="68" width="5" titlealign="none" />
+         <col colnum="ch3" fieldnum="3" class="title" leftmargin="91" width="3" titlealign="none" />
+         <col colnum="ch4" fieldnum="4" class="title" leftmargin="112" width="11" titlealign="none" />
+         <col colnum="ch5" fieldnum="0" class="titleunderline" leftmargin="0" width="9" titlealign="none" />
+         <col colnum="ch6" fieldnum="1" class="titleunderline" leftmargin="27" width="23" titlealign="none" />
+         <col colnum="ch7" fieldnum="2" class="titleunderline" leftmargin="68" width="5" titlealign="none" />
+         <col colnum="ch8" fieldnum="3" class="titleunderline" leftmargin="91" width="3" titlealign="none" />
+         <col colnum="ch9" fieldnum="4" class="titleunderline" leftmargin="112" width="11" titlealign="none" />
+         <col colnum="c10" fieldnum="0" class="data" leftmargin="0" width="9" titlealign="none" />
+         <col colnum="c11" fieldnum="1" class="data" leftmargin="27" width="23" titlealign="none" />
+         <col colnum="c12" fieldnum="2" class="data" leftmargin="68" width="5" titlealign="none" />
+         <col colnum="c13" fieldnum="3" class="data" leftmargin="91" width="3" titlealign="none" />
+         <col colnum="c14" fieldnum="4" class="data" leftmargin="112" width="11" titlealign="none" />
+         <col colnum="st15" class="subtotal" leftmargin="0" width="9" titlealign="none" />
+         <col colnum="st16" class="subtotal" leftmargin="68" width="5" titlealign="none" />
+         <col colnum="st17" class="subtotal" leftmargin="91" width="3" titlealign="none" />
+         <col colnum="st18" class="subtotal" leftmargin="112" width="11" titlealign="none" />
+         <col colnum="gt19" class="grandtotal" leftmargin="0" width="9" titlealign="none" />
+         <col colnum="gt20" class="grandtotal" leftmargin="68" width="5" titlealign="none" />
+         <col colnum="gt21" class="grandtotal" leftmargin="91" width="3" titlealign="none" />
+         <col colnum="gt22" class="grandtotal" leftmargin="112" width="11" titlealign="none" />
+      </column_desc>
+      <table pagenum="1">
+         <thead>
+            <tr linenum="0" linetype="heading">
+               <td colnum="ch0" class="title" id="0" fontnum="0">COUNTRY</td>
+               <td colnum="ch1" class="title" id="1" fontnum="0">MODEL</td>
+               <td colnum="ch2" class="title" id="2" fontnum="0">SEATS</td>
+               <td colnum="ch3" class="title" id="3" fontnum="0">MPG</td>
+               <td colnum="ch4" class="title" id="4" fontnum="0">DEALER_COST</td>
+            </tr>
+            <tr linenum="1" linetype="heading">
+               <td colnum="ch5" class="titleunderline" id="5" fontnum="0">-------</td>
+               <td colnum="ch6" class="titleunderline" id="6" fontnum="0">-----</td>
+               <td colnum="ch7" class="titleunderline" id="7" fontnum="0">-----</td>
+               <td colnum="ch8" class="titleunderline" id="8" fontnum="0">---</td>
+               <td colnum="ch9" class="titleunderline" id="9" fontnum="0">-----------</td>
+            </tr>
+         </thead>
+         <tbody>
+            <tr linenum="2" linetype="data">
+               <td colnum="c10" class="data" id="10" fontnum="1">ENGLAND</td>
+               <td colnum="c11" class="data" id="11" fontnum="1">INTERCEPTOR III</td>
+               <td colnum="c12" class="data" id="12" rawvalue="4" fontnum="1">4</td>
+               <td colnum="c13" class="data" id="13" rawvalue="11" fontnum="1">11</td>
+               <td colnum="c14" class="data" id="14" rawvalue="14940" fontnum="1">14,940</td>
+            </tr>
+            <tr linenum="3" linetype="data">
+               <td colnum="c10" class="data" id="15" hidden="on" fontnum="1">ENGLAND</td>
+               <td colnum="c11" class="data" id="16" fontnum="1">TR7</td>
+               <td colnum="c12" class="data" id="17" rawvalue="2" fontnum="1">2</td>
+               <td colnum="c13" class="data" id="18" rawvalue="25" fontnum="1">25</td>
+               <td colnum="c14" class="data" id="19" rawvalue="4292" fontnum="1">4,292</td>
+            </tr>
+            <tr linenum="4" linetype="data">
+               <td colnum="c10" class="data" id="20" hidden="on" fontnum="1">ENGLAND</td>
+               <td colnum="c11" class="data" id="21" fontnum="1">V12XKE AUTO</td>
+               <td colnum="c12" class="data" id="22" rawvalue="2" fontnum="1">2</td>
+               <td colnum="c13" class="data" id="23" rawvalue="16" fontnum="1">16</td>
+               <td colnum="c14" class="data" id="24" rawvalue="7427" fontnum="1">7,427</td>
+            </tr>
+            <tr linenum="5" linetype="data">
+               <td colnum="c10" class="data" id="25" hidden="on" fontnum="1">ENGLAND</td>
+               <td colnum="c11" class="data" id="26" fontnum="1">XJ12L AUTO</td>
+               <td colnum="c12" class="data" id="27" rawvalue="5" fontnum="1">5</td>
+               <td colnum="c13" class="data" id="28" rawvalue="9" fontnum="1">9</td>
+               <td colnum="c14" class="data" id="29" rawvalue="11194" fontnum="1">11,194</td>
+            </tr>
+            <tr linenum="7" linetype="total">
+               <td colnum="st15" class="subtotal" id="30" fontnum="2">Subtotal: ENGLAND</td>
+               <td colnum="st16" class="subtotal" id="31" fontnum="2">13</td>
+               <td colnum="st17" class="subtotal" id="32" fontnum="2">61</td>
+               <td colnum="st18" class="subtotal" id="33" fontnum="2">37,853</td>
+            </tr>
+            <tr linenum="9" linetype="data">
+               <td colnum="c10" class="data" id="34" fontnum="1">FRANCE</td>
+               <td colnum="c11" class="data" id="35" fontnum="1">504 4 DOOR</td>
+               <td colnum="c12" class="data" id="36" rawvalue="5" fontnum="1">5</td>
+               <td colnum="c13" class="data" id="37" rawvalue="21" fontnum="1">21</td>
+               <td colnum="c14" class="data" id="38" rawvalue="4631" fontnum="1">4,631</td>
+            </tr>
+            <tr linenum="11" linetype="total">
+               <td colnum="st15" class="subtotal" id="39" fontnum="2">Subtotal: FRANCE</td>
+               <td colnum="st16" class="subtotal" id="40" fontnum="2">5</td>
+               <td colnum="st17" class="subtotal" id="41" fontnum="2">21</td>
+               <td colnum="st18" class="subtotal" id="42" fontnum="2">4,631</td>
+            </tr>
+            <tr linenum="13" linetype="data">
+               <td colnum="c10" class="data" id="43" fontnum="1">ITALY</td>
+               <td colnum="c11" class="data" id="44" fontnum="1">2000 4 DOOR BERLINA</td>
+               <td colnum="c12" class="data" id="45" rawvalue="4" fontnum="1">4</td>
+               <td colnum="c13" class="data" id="46" rawvalue="21" fontnum="1">21</td>
+               <td colnum="c14" class="data" id="47" rawvalue="4915" fontnum="1">4,915</td>
+            </tr>
+            <tr linenum="14" linetype="data">
+               <td colnum="c10" class="data" id="48" hidden="on" fontnum="1">ITALY</td>
+               <td colnum="c11" class="data" id="49" fontnum="1">2000 GT VELOCE</td>
+               <td colnum="c12" class="data" id="50" rawvalue="2" fontnum="1">2</td>
+               <td colnum="c13" class="data" id="51" rawvalue="21" fontnum="1">21</td>
+               <td colnum="c14" class="data" id="52" rawvalue="5660" fontnum="1">5,660</td>
+            </tr>
+            <tr linenum="15" linetype="data">
+               <td colnum="c10" class="data" id="53" hidden="on" fontnum="1">ITALY</td>
+               <td colnum="c11" class="data" id="54" fontnum="1">2000 SPIDER VELOCE</td>
+               <td colnum="c12" class="data" id="55" rawvalue="2" fontnum="1">2</td>
+               <td colnum="c13" class="data" id="56" rawvalue="21" fontnum="1">21</td>
+               <td colnum="c14" class="data" id="57" rawvalue="5660" fontnum="1">5,660</td>
+            </tr>
+            <tr linenum="16" linetype="data">
+               <td colnum="c10" class="data" id="58" hidden="on" fontnum="1">ITALY</td>
+               <td colnum="c11" class="data" id="59" fontnum="1">DORA 2 DOOR</td>
+               <td colnum="c12" class="data" id="60" rawvalue="2" fontnum="1">2</td>
+               <td colnum="c13" class="data" id="61" rawvalue="0" fontnum="1">0</td>
+               <td colnum="c14" class="data" id="62" rawvalue="25000" fontnum="1">25,000</td>
+            </tr>
+            <tr linenum="18" linetype="total">
+               <td colnum="st15" class="subtotal" id="63" fontnum="2">Subtotal: ITALY</td>
+               <td colnum="st16" class="subtotal" id="64" fontnum="2">10</td>
+               <td colnum="st17" class="subtotal" id="65" fontnum="2">63</td>
+               <td colnum="st18" class="subtotal" id="66" fontnum="2">41,235</td>
+            </tr>
+            <tr linenum="20" linetype="data">
+               <td colnum="c10" class="data" id="67" fontnum="1">JAPAN</td>
+               <td colnum="c11" class="data" id="68" fontnum="1">B210 2 DOOR AUTO</td>
+               <td colnum="c12" class="data" id="69" rawvalue="4" fontnum="1">4</td>
+               <td colnum="c13" class="data" id="70" rawvalue="0" fontnum="1">0</td>
+               <td colnum="c14" class="data" id="71" rawvalue="2626" fontnum="1">2,626</td>
+            </tr>
+            <tr linenum="21" linetype="data">
+               <td colnum="c10" class="data" id="72" hidden="on" fontnum="1">JAPAN</td>
+               <td colnum="c11" class="data" id="73" fontnum="1">COROLLA 4 DOOR DIX AUTO</td>
+               <td colnum="c12" class="data" id="74" rawvalue="4" fontnum="1">4</td>
+               <td colnum="c13" class="data" id="75" rawvalue="27" fontnum="1">27</td>
+               <td colnum="c14" class="data" id="76" rawvalue="2886" fontnum="1">2,886</td>
+            </tr>
+            <tr linenum="23" linetype="total">
+               <td colnum="st15" class="subtotal" id="77" fontnum="2">Subtotal: JAPAN</td>
+               <td colnum="st16" class="subtotal" id="78" fontnum="2">8</td>
+               <td colnum="st17" class="subtotal" id="79" fontnum="2">27</td>
+               <td colnum="st18" class="subtotal" id="80" fontnum="2">5,512</td>
+            </tr>
+            <tr linenum="25" linetype="data">
+               <td colnum="c10" class="data" id="81" fontnum="1">W GERMANY</td>
+               <td colnum="c11" class="data" id="82" fontnum="1">100 LS 2 DOOR AUTO</td>
+               <td colnum="c12" class="data" id="83" rawvalue="5" fontnum="1">5</td>
+               <td colnum="c13" class="data" id="84" rawvalue="23" fontnum="1">23</td>
+               <td colnum="c14" class="data" id="85" rawvalue="5063" fontnum="1">5,063</td>
+            </tr>
+            <tr linenum="26" linetype="data">
+               <td colnum="c10" class="data" id="86" hidden="on" fontnum="1">W GERMANY</td>
+               <td colnum="c11" class="data" id="87" fontnum="1">2002 2 DOOR</td>
+               <td colnum="c12" class="data" id="88" rawvalue="5" fontnum="1">5</td>
+               <td colnum="c13" class="data" id="89" rawvalue="24" fontnum="1">24</td>
+               <td colnum="c14" class="data" id="90" rawvalue="5800" fontnum="1">5,800</td>
+            </tr>
+            <tr linenum="27" linetype="data">
+               <td colnum="c10" class="data" id="91" hidden="on" fontnum="1">W GERMANY</td>
+               <td colnum="c11" class="data" id="92" fontnum="1">2002 2 DOOR AUTO</td>
+               <td colnum="c12" class="data" id="93" rawvalue="4" fontnum="1">4</td>
+               <td colnum="c13" class="data" id="94" rawvalue="24" fontnum="1">24</td>
+               <td colnum="c14" class="data" id="95" rawvalue="6000" fontnum="1">6,000</td>
+            </tr>
+            <tr linenum="28" linetype="data">
+               <td colnum="c10" class="data" id="96" hidden="on" fontnum="1">W GERMANY</td>
+               <td colnum="c11" class="data" id="97" fontnum="1">3.0 SI 4 DOOR</td>
+               <td colnum="c12" class="data" id="98" rawvalue="5" fontnum="1">5</td>
+               <td colnum="c13" class="data" id="99" rawvalue="18" fontnum="1">18</td>
+               <td colnum="c14" class="data" id="100" rawvalue="10000" fontnum="1">10,000</td>
+            </tr>
+            <tr linenum="29" linetype="data">
+               <td colnum="c10" class="data" id="101" hidden="on" fontnum="1">W GERMANY</td>
+               <td colnum="c11" class="data" id="102" fontnum="1">3.0 SI 4 DOOR AUTO</td>
+               <td colnum="c12" class="data" id="103" rawvalue="5" fontnum="1">5</td>
+               <td colnum="c13" class="data" id="104" rawvalue="18" fontnum="1">18</td>
+               <td colnum="c14" class="data" id="105" rawvalue="11000" fontnum="1">11,000</td>
+            </tr>
+            <tr linenum="30" linetype="data">
+               <td colnum="c10" class="data" id="106" hidden="on" fontnum="1">W GERMANY</td>
+               <td colnum="c11" class="data" id="107" fontnum="1">530I 4 DOOR</td>
+               <td colnum="c12" class="data" id="108" rawvalue="5" fontnum="1">5</td>
+               <td colnum="c13" class="data" id="109" rawvalue="18" fontnum="1">18</td>
+               <td colnum="c14" class="data" id="110" rawvalue="8300" fontnum="1">8,300</td>
+            </tr>
+            <tr linenum="31" linetype="data">
+               <td colnum="c10" class="data" id="111" hidden="on" fontnum="1">W GERMANY</td>
+               <td colnum="c11" class="data" id="112" fontnum="1">530I 4 DOOR AUTO</td>
+               <td colnum="c12" class="data" id="113" rawvalue="5" fontnum="1">5</td>
+               <td colnum="c13" class="data" id="114" rawvalue="18" fontnum="1">18</td>
+               <td colnum="c14" class="data" id="115" rawvalue="8400" fontnum="1">8,400</td>
+            </tr>
+            <tr linenum="33" linetype="total">
+               <td colnum="st15" class="subtotal" id="116" fontnum="2">Subtotal: W GERMANY</td>
+               <td colnum="st16" class="subtotal" id="117" fontnum="2">34</td>
+               <td colnum="st17" class="subtotal" id="118" fontnum="2">143</td>
+               <td colnum="st18" class="subtotal" id="119" fontnum="2">54,563</td>
+            </tr>
+            <tr linenum="36" linetype="total">
+               <td colnum="gt19" class="grandtotal" id="120" fontnum="3">TOTAL</td>
+               <td colnum="gt20" class="grandtotal" id="121" fontnum="3">70</td>
+               <td colnum="gt21" class="grandtotal" id="122" fontnum="3">315</td>
+               <td colnum="gt22" class="grandtotal" id="123" fontnum="3">143,794</td>
+            </tr>
+         </tbody>
+      </table>
+   </report>
+</fxf>
